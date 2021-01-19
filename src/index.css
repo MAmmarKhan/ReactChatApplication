@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+  }
+  
+code {
+font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.screen{
+  flex-direction: row;  
+  display: flex;
+  overflow-x: hidden;
+  width: auto;
+}
+.menu-side{
+    min-width: 50vh;
+    min-height: 100vh;
+    margin: auto;
+    float: left;
+}
+
+.account-info{
+  background-color: rgb(255, 255, 255);
+  min-height: 15vh;
+  border: orange;
+  border-style: solid;
+  font-family: Arial;
+  font-size: 4vh;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.text-center{
+text-align: center;
+}
+.friend-list{
+  overflow-y:scroll;  
+  overflow-x: hidden;
+  max-height: 78vh;
+}
+.card{
+  margin: 10px;
+  text-align: center;  
+  list-style: none;
+  font-size: larger;  
+  height: 8vh;  
+  padding-top: 20px;
+  background-color: rgb(161, 156, 156);
+  box-shadow: teal;
+  width: 95%;  
+}
+.search-bar{
+  height: 5vh;
+  width: 96.5%;
+  margin: 0%;
+  margin-left: 1%;
+  padding: 0%;
+  padding-left: 1%;
+}
+.circle{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;   
+  margin: auto;  
+  border: solid 5px rgb(209, 75, 209);
+  display: flex;
+}
+.logo{
+  margin: auto;  
+  display: flex;
+  padding-right: 40px;  
+}
+.chat-side{
+  background-color: white;
+  border: orange;
+  border-style: solid;
+  min-height: 98vh;
+  flex-direction: column;  
+  width: -webkit-fill-available;
+  width: -moz-available;
+  height: auto;
+}
+.chat-box{
+  min-height: 87vh;
+  flex-direction: column;
+  max-height: 87vh;
+  overflow-x: hidden;
+}
+.Input-Box{
+  position: flex;
+  bottom: 0.5%;
+  width: 100%;
+  height: 12vh;
+  background-color: teal;
+  display: table;  
+}
+.left-chat{
+  background-color: yellow;
+  border-radius: 20% 20% 20% 0%;
+  padding: 15px 15px 15px 20px;
+  margin: 0px 0px 5px 5px;
+  width: fit-content;  
+}
+.right-chat{  
+  background-color: lawngreen;
+  border-radius: 20% 20% 0% 20%;
+  padding: 15px 20px 15px 15px;
+  margin: 0px 5px 5px 0px;
+  width: fit-content;        
+  position: relative;  
+  margin-left: auto;
+}
+.all-messages{
+  width: 100%;  
+  position: relative;
+  font-size: large;
+  font-weight: 500;
+}
+input[type=text] {
+  width: 90%;
+  background-color: white;
+  padding: 20px 20px;
+  margin: 7px 0px 0px 0px;
+  border: solid gray;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 500;
+}
+.display-flex{
+  display: flex;  
+}
+.send{
+  border-radius: 5% 50% 50% 5%;
+  height: 10vh;
+  padding: auto;
+  margin-top: 7px;
+  background-color: rgb(51, 48, 48);
+  border: darkgray;
+}
